@@ -14,11 +14,6 @@ public class CarBehaviour : MonoBehaviour
     void Start()
     {}
 
-    void OnCollisionStay(Collision collisionInfo)
-    {
-        Debug.Log("ohmygod it happened");
-    }
-
     void FixedUpdate()
     {
         if (drone.position.x >= 22 && drone.position.x <= 59 && car.position.z < drone.position.z) { // проверяем на дороге ли дрон, и вообще находится ли машина до участка дороги, на котором находится дрон
