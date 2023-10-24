@@ -55,7 +55,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Simple Drone Physics\Scripts\DroneController.cs" />
-    <Compile Include="Assets\Scripts\Behaviour\WheelChairBehaviour.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\MobileInput.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\HelicopterCamera.cs" />
     <Compile Include="Assets\Scripts\Handlers\CarHandler.cs" />

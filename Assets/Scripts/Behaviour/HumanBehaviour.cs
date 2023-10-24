@@ -11,14 +11,19 @@ public class HumanBehaviour : MonoBehaviour
 
     void Start()
     {}
-
     
     void Update()
     {        
         if (Input.GetKeyDown(KeyCode.Y))
         {
             canGo = !canGo;
-        }        
+        }
+
+        if (canGo) 
+        {
+            Vector3 direction = new(target.position.x, transform.position.y, target.position.z);
+            transform.LookAt(direction);
+        }  
     }
 
     void FixedUpdate()
