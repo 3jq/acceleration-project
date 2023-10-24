@@ -4,6 +4,7 @@ using System.Collections;
 public class HelicopterCamera : MonoBehaviour {
  
 	public Transform target;
+	public Transform human;
 	public float distance = 20.0f;
 	public float height = 5.0f;
 	public float heightDamping = 2.0f;
@@ -44,7 +45,6 @@ public class HelicopterCamera : MonoBehaviour {
 	}
  
 	void FixedUpdate () {
- 
 		wantedHeight = target.position.y + height;
 		currentHeight = transform.position.y;
  
@@ -65,7 +65,6 @@ public class HelicopterCamera : MonoBehaviour {
 		transform.position = wantedPosition;
 		lookAtVector =  new Vector3(0,lookAtHeight,0);
 		transform.LookAt(target.position + lookAtVector);
- 
 	}
  
 }

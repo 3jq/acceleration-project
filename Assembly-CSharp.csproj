@@ -55,12 +55,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Simple Drone Physics\Scripts\DroneController.cs" />
+    <Compile Include="Assets\Scripts\Behaviour\WheelChairBehaviour.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\MobileInput.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\HelicopterCamera.cs" />
     <Compile Include="Assets\Scripts\Handlers\CarHandler.cs" />
     <Compile Include="Assets\Scripts\Behaviour\CarBehaviour.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\PerfectMouseLook.cs" />
+    <Compile Include="Assets\Scripts\Behaviour\HumanBehaviour.cs" />
     <Compile Include="Assets\Simple Drone Physics\Scripts\PseudoProceduralDunes.cs" />
   </ItemGroup>
   <ItemGroup>
